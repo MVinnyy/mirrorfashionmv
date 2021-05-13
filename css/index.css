@@ -1,0 +1,185 @@
+body {
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #eeeeee;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sacola {
+    float: right;
+    background-image: url('../img/sacola.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-right: 10px;
+    font-size: 11px;
+    padding-right: 35px;
+    text-align: center;
+    width: 100px;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+}
+
+.menu-opcoes a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-opcoes ul li {
+    margin-left: 20px;
+    display: inline;
+}
+
+.menu-opcoes {
+    background-color: #ffffff;
+    text-align: left;
+    padding: 2px;
+    border-style: ridge;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.container {
+    width: 940px;
+    margin: 0px auto;
+    background-color: #d0d0d0;
+    border-style: ridge;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#principal {
+    margin-top: 20px;
+    height: 1300px;
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#destaques {
+    height: 200px;
+    background-color: #F2EDED;
+}
+
+.logotipo {
+    text-align: center;
+    position: relative;
+    padding-top: 4px;
+    padding-left: 6px;
+}
+
+.lista1 {
+    list-style: none;
+    margin-top: 4px;
+    padding-top: 4px;
+    text-align: none;
+}
+
+h2 {
+    color: black;
+}
+
+#departamentos {
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+#banner-destaque {
+    padding: 20px 0 0 20px;
+}
+
+#busca {
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+#busca input[type="search"] {
+    width: 170px;
+    height: 20px;
+    border-radius: 30px;
+}
+
+#busca button {
+    background-image: url('../img/busca.png');
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 23px;
+    border-radius: 5px;
+}
+
+.dep {
+    height: 480px;
+}
+
+.blusas {
+    border-radius: 100px;
+    border: 2px solid black;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000000;
+}
+
+.calcas {
+    border-radius: 100px;
+    border: 2px solid black;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000000;
+}
+
+.bolsas {
+    border-radius: 100px;
+    border: 2px solid black;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000000;
+}
+
+.vestidos {
+    border-radius: 100px;
+    border: 2px solid black;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000000;
+}
+
+.texto {
+    text-align: center;
+    position: relative;
+}
+
+#rodape {
+    color: #777;
+    margin: 30px 200px;
+    padding: 20px 0;
+}
+
+#rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
